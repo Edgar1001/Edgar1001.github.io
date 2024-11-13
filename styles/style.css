@@ -413,7 +413,4 @@ body {
     height: 400px;
   }
 }
-.animated-title .next-line {
-  display: block;
-  margin-top: 0; /* Ensures no extra space between lines */
-}
+
