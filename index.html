@@ -37,22 +37,23 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contact</a>
 						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<i class="bi bi-translate"></i> Language
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+								<li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+								<li><a class="dropdown-item" href="#" onclick="setLanguage('es')">Español</a></li>
+								<li><a class="dropdown-item" href="#" onclick="setLanguage('fi')">Suomi</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<div class="dropdown ms-auto">
-			<button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown"
-				data-bs-toggle="dropdown" aria-expanded="false">
-				<i class="bi bi-translate"></i> Language
-			</button>
-			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-				<li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
-				<li><a class="dropdown-item" href="#" onclick="setLanguage('es')">Español</a></li>
-				<li><a class="dropdown-item" href="#" onclick="setLanguage('fi')">Suomi</a></li>
-			</ul>
-		</div>
+		
 
 		<section id="about" class="d-flex flex-column p-5">
 			<div class="about-container reveal">
