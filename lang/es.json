@@ -1,0 +1,16 @@
+
+{
+    "description1": "Soy un apasionado Ingeniero de Software especializado en desarrollo full-stack y DevOps. Mi experiencia abarca tanto el front-end como el back-end, lo que me permite entregar aplicaciones integradas y de alto rendimiento. Con una sólida base en marcos y lenguajes modernos, sobresalgo en la creación de interfaces de usuario intuitivas y receptivas que funcionan perfectamente en todos los dispositivos, junto con soluciones backend robustas y escalables que las impulsan.",
+    "description2": "En el lado de DevOps, tengo experiencia en la automatización de implementaciones, gestión de infraestructura y asegurando que los sistemas sean fiables y seguros. Creo en aprovechar las canalizaciones CI/CD, la contenedorización y los servicios en la nube para agilizar el desarrollo y crear flujos de trabajo consistentes y eficientes. Mi objetivo siempre es optimizar el ciclo de vida del desarrollo, asegurando una entrega rápida, fiable y una experiencia de usuario de primera categoría.",
+    "description3": "Las habilidades clave incluyen:",
+    "skill1": "Desarrollo Full-Stack (MERN y PERN Stack)",
+    "skill2": "Frameworks Frontend: React, Redux, Next.js",
+    "skill3": "Desarrollo Backend: Node.js, Express, REST APIs, GraphQL",
+    "skill4": "Gestión de bases de datos: MongoDB, PostgreSQL, MySQL",
+    "skill5": "Servicios e infraestructura en la nube: AWS (EC2, S3, RDS, Lambda)",
+    "skill6": "Canalizaciones CI/CD y DevOps: Docker, Kubernetes, Jenkins",
+    "skill7": "Arquitectura sin servidor y microservicios",
+    "skill8": "Seguridad de datos y autenticación (OAuth, JWT)",
+    "skill9": "Certificaciones: Arquitecto de Soluciones Certificado por AWS, Desarrollador Certificado por AWS",
+    "description4": "En cada proyecto, me impulsa la resolución de problemas, la colaboración y el aprendizaje continuo para mantenerme al día con lo último en tecnología. Estoy emocionado de aportar tanto creatividad como precisión al trabajo que realizo, ayudando a las empresas a convertir sus ideas en realidad."
+}
