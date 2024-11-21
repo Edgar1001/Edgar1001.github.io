@@ -414,15 +414,4 @@ body {
   }
 }
 
-/* Add hover effect for the Language dropdown button */
-#languageDropdown:hover .nav-link {
-  color: #ff5733;  /* Example of color change on hover */
-}
-
-/* Hover effect for dropdown items in the Language menu */
-#languageDropdown .dropdown-item:hover {
-  background-color: #6f42c1; /* Purple background on hover */
-  color: white; /* White text on hover */
-}
-
 
