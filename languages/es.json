@@ -12,5 +12,19 @@
     "skill7": "Arquitectura sin servidor y microservicios",
     "skill8": "Seguridad de datos y autenticación (OAuth, JWT)",
     "skill9": "Certificaciones: Arquitecto de Soluciones Certificado por AWS, Desarrollador Certificado por AWS",
-    "description4": "En cada proyecto, me impulsa la resolución de problemas, la colaboración y el aprendizaje continuo para mantenerme al día con lo último en tecnología. Estoy emocionado de aportar tanto creatividad como precisión al trabajo que realizo, ayudando a las empresas a convertir sus ideas en realidad."
-}
+    "description4": "En cada proyecto, me impulsa la resolución de problemas, la colaboración y el aprendizaje continuo para mantenerme al día con lo último en tecnología. Estoy emocionado de aportar tanto creatividad como precisión al trabajo que realizo, ayudando a las empresas a convertir sus ideas en realidad.",
+    "projects-title": "Proyectos Actuales",
+    "vibing-title": "Vibing",
+    "vibing-description": "Vibing es una plataforma de citas moderna diseñada para conexiones reales. Cuenta con perfiles de usuario, emparejamiento basado en deslizamientos y autenticación segura para una experiencia de citas segura. Vibing permite la comunicación en tiempo real a través de chats impulsados por WebSocket, lo que permite a los usuarios participar en conversaciones instantáneas y sin problemas. Con una interfaz elegante y fácil de usar y características de privacidad robustas.",
+    "hipertube-title": "Hipertube",
+    "hipertube-description": "Hypertube es un proyecto de aplicación de transmisión inspirado en plataformas como Netflix. Permite a los usuarios navegar, transmitir y ver una amplia gama de películas a través de enlaces de torrent, proporcionando una reproducción de video sin interrupciones directamente en la aplicación. Construido con un enfoque en el desarrollo full-stack, Hypertube incluye autenticación de usuario, gestión de perfiles, funcionalidad de búsqueda y soporte multilingüe. El proyecto combina habilidades de front-end y back-end, requiriendo la integración de API de terceros, sesiones de usuario seguras y diseño receptivo para ofrecer una experiencia de transmisión intuitiva y rica en funciones.",
+    "technologies": "Tecnologías:",
+    "contact-title": "Contacto",
+    "name-label": "Nombre",
+    "email-label": "Correo electrónico",
+    "message-label": "Mensaje",
+    "send-message": "Enviar mensaje",
+    "contact-get-in-touch": "Ponte en contacto",
+    "contact-info": "Siempre estoy emocionado de conectar y discutir nuevos proyectos, ideas innovadoras y posibles colaboraciones. Si estás buscando un socio dedicado para ayudar a dar vida a tu visión con creatividad y experiencia técnica, me encantaría explorar cómo podemos trabajar juntos."
+    }
+    
