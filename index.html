@@ -14,16 +14,6 @@
     <link href="./styles/style.css" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
-    <style>
-        .dropdown-toggle {
-            display: flex;
-            align-items: center;
-        }
-
-        .bi-translate {
-            margin-right: 0.5rem;
-        }
-    </style>
 </head>
 
 <body class="container-fluid">
@@ -39,16 +29,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about" data-translate="about">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects" data-translate="projects">Projects</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact" data-translate="contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <!-- Translation Dropdown -->
+                    <!-- Language Button -->
                     <div class="dropdown ms-auto">
                         <button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,34 +54,50 @@
             </div>
         </nav>
 
+        <!-- Rest of the page -->
         <section id="about" class="d-flex flex-column p-5">
             <div class="about-container reveal">
-                <h2 class="section-title" data-translate="about">About</h2>
-                <div class="row">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-md-6 text-start">
+                        <div class="col-md-6 text-start">
+                            <div class="animated-title">
+                                <span class="letter">S</span>
+                                <span class="letter">o</span>
+                                <span class="letter">f</span>
+                                <span class="letter">t</span>
+                                <span class="letter">w</span>
+                                <span class="letter">a</span>
+                                <span class="letter">r</span>
+                                <span class="letter">e</span>
+                            </div>
+                            <div class="animated-title">
+                                <span class="letter">E</span>
+                                <span class="letter">n</span>
+                                <span class="letter">g</span>
+                                <span class="letter">i</span>
+                                <span class="letter">n</span>
+                                <span class="letter">e</span>
+                                <span class="letter">e</span>
+                                <span class="letter">r</span>
+                            </div>
+                        </div>
+                        <span class="main_title clearfix">Edgar Rosende</span>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="image-container">
+                            <img src="./assets/imgs/my_image.png" class="img-fluid responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
                     <div class="col-12">
                         <p class="description">
-                            <span data-translate="about-description">
-                                I'm a passionate Software Engineer specializing in full-stack development and DevOps.
-                                My expertise bridges the front and back end, allowing me to deliver seamless,
-                                high-performing applications.
-                            </span>
+                            I'm a passionate Software Engineer specializing in full-stack development and DevOps.
+                            My expertise bridges the front and back end, allowing me to deliver seamless, 
+                            high-performing applications.
                         </p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="projects" class="d-flex flex-column p-5">
-            <h2 class="section-title" data-translate="projects">Projects</h2>
-        </section>
-
-        <section id="contact" class="d-flex flex-column p-5">
-            <h2 class="section-title" data-translate="contact">Contact</h2>
-            <div class="contact-container reveal">
-                <p data-translate="contact-description">
-                    I’m always excited to connect and discuss new projects, innovative ideas, and potential
-                    collaborations.
-                </p>
             </div>
         </section>
 
@@ -103,43 +109,15 @@
         </footer>
     </div>
 
+    <!-- Script for handling language -->
     <script>
-        const translations = {
-            en: {
-                about: "About",
-                projects: "Projects",
-                contact: "Contact",
-                "about-description": "I'm a passionate Software Engineer specializing in full-stack development and DevOps.",
-                "contact-description": "I’m always excited to connect and discuss new projects, innovative ideas, and potential collaborations."
-            },
-            es: {
-                about: "Acerca de",
-                projects: "Proyectos",
-                contact: "Contacto",
-                "about-description": "Soy un apasionado Ingeniero de Software especializado en desarrollo full-stack y DevOps.",
-                "contact-description": "Siempre estoy emocionado de conectar y discutir nuevos proyectos, ideas innovadoras y posibles colaboraciones."
-            },
-            fi: {
-                about: "Tietoja",
-                projects: "Projektit",
-                contact: "Yhteystiedot",
-                "about-description": "Olen intohimoinen ohjelmistosuunnittelija, joka on erikoistunut full-stack-kehitykseen ja DevOpsiin.",
-                "contact-description": "Olen aina innoissani uusien projektien, innovatiivisten ideoiden ja yhteistyömahdollisuuksien käsittelystä."
-            }
-        };
-
         function setLanguage(lang) {
-            document.querySelectorAll("[data-translate]").forEach(el => {
-                const key = el.getAttribute("data-translate");
-                el.textContent = translations[lang][key];
-            });
+            console.log(`Language set to: ${lang}`);
+            // Here, you can add logic to change the language dynamically
+            // For now, this logs the selected language
         }
-
-        // Set default language on page load
-        document.addEventListener("DOMContentLoaded", () => {
-            setLanguage('en'); // Default language
-        });
     </script>
 </body>
 
 </html>
+
