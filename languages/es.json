@@ -1,23 +1,22 @@
-
 {
-    "description1": "Soy un apasionado Ingeniero de Software especializado en desarrollo full-stack y DevOps. Mi experiencia abarca tanto el front-end como el back-end, lo que me permite entregar aplicaciones integradas y de alto rendimiento. Con una sólida base en marcos y lenguajes modernos, sobresalgo en la creación de interfaces de usuario intuitivas y receptivas que funcionan perfectamente en todos los dispositivos, junto con soluciones backend robustas y escalables que las impulsan.",
-    "description2": "En el lado de DevOps, tengo experiencia en la automatización de implementaciones, gestión de infraestructura y asegurando que los sistemas sean fiables y seguros. Creo en aprovechar las canalizaciones CI/CD, la contenedorización y los servicios en la nube para agilizar el desarrollo y crear flujos de trabajo consistentes y eficientes. Mi objetivo siempre es optimizar el ciclo de vida del desarrollo, asegurando una entrega rápida, fiable y una experiencia de usuario de primera categoría.",
-    "description3": "Las habilidades clave incluyen:",
+    "description1": "Soy un apasionado Ingeniero de Software especializado en desarrollo Full-stack y DevOps. Mi experiencia abarca tanto el front-end como el back-end, lo que me permite entregar aplicaciones integradas y de alto rendimiento. Con una sólida base en frameworks y lenguajes modernos, sobresalgo en la creación de interfaces de usuario intuitivas y adaptativas que funcionan perfectamente en todos los dispositivos, junto con soluciones backend robustas y escalables que las soportan.",
+    "description2": "En el ámbito de DevOps, tengo experiencia en la automatización de implementaciones, gestión de infraestructura y asegurar que los sistemas sean confiables y seguros. Con conocimiento en CI/CD, containerizacion de apps y los servicios en la nube para agilizar el desarrollo y crear flujos de trabajo consistentes y eficientes. Mi objetivo siempre es optimizar el ciclo de vida del desarrollo, asegurando una entrega rápida, confiable y una experiencia de usuario de primera calidad.",
+    "description3": "Mis habilidades tecnicas incluyen:",
     "skill1": "Desarrollo Full-Stack (MERN y PERN Stack)",
     "skill2": "Frameworks Frontend: React, Redux, Next.js",
     "skill3": "Desarrollo Backend: Node.js, Express, REST APIs, GraphQL",
     "skill4": "Gestión de bases de datos: MongoDB, PostgreSQL, MySQL",
     "skill5": "Servicios e infraestructura en la nube: AWS (EC2, S3, RDS, Lambda)",
-    "skill6": "Canalizaciones CI/CD y DevOps: Docker, Kubernetes, Jenkins",
+    "skill6": "Infraestructura CI/CD y DevOps: Docker, Kubernetes, Jenkins",
     "skill7": "Arquitectura sin servidor y microservicios",
     "skill8": "Seguridad de datos y autenticación (OAuth, JWT)",
-    "skill9": "Certificaciones: Arquitecto de Soluciones Certificado por AWS, Desarrollador Certificado por AWS",
-    "description4": "En cada proyecto, me impulsa la resolución de problemas, la colaboración y el aprendizaje continuo para mantenerme al día con lo último en tecnología. Estoy emocionado de aportar tanto creatividad como precisión al trabajo que realizo, ayudando a las empresas a convertir sus ideas en realidad.",
+    "skill9": "Certificaciones: Solutions Arquitect associate por AWS, Developer associate por AWS",
+    "description4": "En cada proyecto, me motiva la resolución de problemas, la colaboración y el aprendizaje continuo para mantenerme al día con las últimas tecnologías. Me entusiasma aportar tanto creatividad como precisión al trabajo que realizo, ayudando a las empresas a transformar sus ideas en realidad.",
     "projects-title": "Proyectos Actuales",
     "vibing-title": "Vibing",
-    "vibing-description": "Vibing es una plataforma de citas moderna diseñada para conexiones reales. Cuenta con perfiles de usuario, emparejamiento basado en deslizamientos y autenticación segura para una experiencia de citas segura. Vibing permite la comunicación en tiempo real a través de chats impulsados por WebSocket, lo que permite a los usuarios participar en conversaciones instantáneas y sin problemas. Con una interfaz elegante y fácil de usar y características de privacidad robustas.",
-    "hipertube-title": "Hipertube",
-    "hipertube-description": "Hypertube es un proyecto de aplicación de transmisión inspirado en plataformas como Netflix. Permite a los usuarios navegar, transmitir y ver una amplia gama de películas a través de enlaces de torrent, proporcionando una reproducción de video sin interrupciones directamente en la aplicación. Construido con un enfoque en el desarrollo full-stack, Hypertube incluye autenticación de usuario, gestión de perfiles, funcionalidad de búsqueda y soporte multilingüe. El proyecto combina habilidades de front-end y back-end, requiriendo la integración de API de terceros, sesiones de usuario seguras y diseño receptivo para ofrecer una experiencia de transmisión intuitiva y rica en funciones.",
+    "vibing-description": "Vibing es una plataforma de citas moderna diseñada para conexiones reales. Cuenta con perfiles de usuario, emparejamiento basado en deslizamientos y autenticación segura para una experiencia de citas confiable. Vibing permite la comunicación en tiempo real a través de chats impulsados por WebSocket, lo que permite a los usuarios participar en conversaciones instantáneas y fluidas. Con una interfaz elegante y fácil de usar y funciones de privacidad robustas.",
+    "hipertube-title": "StreamTube",
+    "hipertube-description": "StreamTube es un proyecto de una aplicación de streaming inspirado en plataformas como Netflix. Permite a los usuarios navegar, transmitir y ver una amplia gama de películas a través de enlaces torrent, proporcionando una reproducción de video fluida directamente en la aplicación. Construido con un enfoque en el desarrollo full-stack, StreamTube incluye autenticación de usuarios, gestión de perfiles, funcionalidad de búsqueda y soporte multilingüe. El proyecto combina habilidades de front-end y back-end, requiriendo la integración de APIs de terceros, sesiones de usuario seguras y un diseño apropiado para ofrecer una experiencia de streaming intuitiva y rica en características.",
     "technologies": "Tecnologías:",
     "contact-title": "Contacto",
     "name-label": "Nombre",
@@ -25,6 +24,12 @@
     "message-label": "Mensaje",
     "send-message": "Enviar mensaje",
     "contact-get-in-touch": "Ponte en contacto",
-    "contact-info": "Siempre estoy emocionado de conectar y discutir nuevos proyectos, ideas innovadoras y posibles colaboraciones. Si estás buscando un socio dedicado para ayudar a dar vida a tu visión con creatividad y experiencia técnica, me encantaría explorar cómo podemos trabajar juntos."
-    }
+    "contact-info": "Siempre estoy abierto a conectar y discutir nuevos proyectos, ideas innovadoras y posibles colaboraciones. Si buscas un socio comprometido para ayudar a dar vida a tu visión con creatividad y experiencia técnica, me encantaría explorar cómo podemos trabajar juntos.",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "language": "Idioma"
+}
+
+    
     
