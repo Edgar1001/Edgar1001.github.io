@@ -414,4 +414,13 @@ body {
   }
 }
 
+.no-underline {
+  text-decoration: none;  /* Removes the underline */
+  color: #28a745;         /* Set the color to green */
+}
+
+/* Optional: Add a hover effect for a better user experience */
+.no-underline:hover {
+  color: #218838;         /* Darker green on hover */
+}
 
