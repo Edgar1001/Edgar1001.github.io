@@ -272,6 +272,15 @@ body {
   margin-bottom: 10px;
 }
 
+.project-item h3 a {
+  color: #4CAF50; /* Same green as h3 */
+  text-decoration: none; /* Remove underline */
+}
+
+.project-item h3 a:hover {
+  color: #388E3C; /* Slightly darker green on hover */
+}
+
 .project-item p {
   margin-bottom: 10px;
 }
