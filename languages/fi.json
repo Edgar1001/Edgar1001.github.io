@@ -19,15 +19,15 @@
     "streamtube-title": "StreamTube",
     "streamtube-description": "StreamTube on suoratoistosovelluksen projekti, joka on saanut inspiraationsa alustoilta kuten Netflix. Se sallii käyttäjien selata, suoratoistaa ja katsella laajaa elokuvavalikoimaa torrent-linkkien kautta, tarjoten saumattoman videon toiston suoraan sovelluksessa. Rakennettu full-stack-kehityksen lähestymistavalla, StreamTube sisältää käyttäjäautentikoinnin, profiilinhallinnan, hakutoiminnon ja monikielisen tuen. Projekti yhdistää front-end- ja back-end-taidot, vaativat kolmannen osapuolen API:iden integrointia, turvallisia käyttäjäsessioita ja responsiivista suunnittelua tarjotakseen intuitiivisen ja monipuolisen suoratoistokokemuksen.",
     "technologies": "Teknologiat:",
-    "contact-title": "Yhteydenotto",
+    "contact-title": "Yhteystiedot",
     "name-label": "Nimi",
     "email-label": "Sähköposti",
     "message-label": "Viesti",
     "send-message": "Lähetä viesti",
     "contact-get-in-touch": "Ota yhteyttä",
-    "contact-info": "Olen aina avoin yhteydenottoon ja uusien projektien, innovatiivisten ideoiden sekä mahdollisten yhteistyömahdollisuuksien keskusteluun. Jos etsit sitoutunutta kumppania, joka voi auttaa toteuttamaan visiosi luovuudella ja teknisellä osaamisella, olisin iloinen voidessani tutkia, miten voimme työskennellä yhdessä.",
+    "contact-info": "Olen aina avoin uusille yhteydenotoille sekä keskusteluille projekteista, innovatiivisista ideoista ja mahdollisista yhteistyömahdollisuuksista. Jos etsit jotakuta, joka voi auttaa toteuttamaan visiosi luovuudella ja teknisellä asiantuntemuksella, tutustun mielelläni siihen, kuinka voisimme työskennellä yhdessä.",
     "about": "Tietoa",
     "projects": "Projektit",
-    "contact": "Yhteys",
+    "contact": "Yhteystiedot",
     "language": "Kieli"
 }
