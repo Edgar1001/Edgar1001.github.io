@@ -173,15 +173,15 @@ body {
   font-size: 24px;
   color: #4CAF50;
   margin-top: 10px;
-  line-height: 1; /* Reduce line height to minimize space between lines */
+  line-height: 1; 
 }
 
 .animated-title .letter {
-  display: inline-block; /* Keeps letters inline while treating them like block-level elements */
+  display: inline-block; 
   opacity: 0;
   transform: translateY(1em);
   animation: fadeInUp 0.5s forwards;
-  margin-right: 2px; /* Reduce the margin between letters */
+  margin-right: 2px; 
 }
 
 @keyframes fadeInUp {
