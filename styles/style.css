@@ -267,18 +267,21 @@ body {
   transform: translateY(-5px);
 }
 
-.project-item h3 {
-  color: #4CAF50;
-  margin-bottom: 10px;
-}
-
+/* Style for the project title link */
 .project-item h3 a {
-  color: #4CAF50; /* Same green as h3 */
+  color: #4CAF50; /* Match the existing green for h3 */
   text-decoration: none; /* Remove underline */
 }
 
+/* Style for hover effect on the project title link */
 .project-item h3 a:hover {
-  color: #388E3C; /* Slightly darker green on hover */
+  color: #388E3C; /* Slightly darker green for hover effect */
+}
+
+/* Ensure this rule has higher specificity if needed */
+.project-item h3 > a {
+  color: #4CAF50 !important; /* Ensure it overrides browser defaults */
+  text-decoration: none !important;
 }
 
 .project-item p {
