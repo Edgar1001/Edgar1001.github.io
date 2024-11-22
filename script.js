@@ -1,16 +1,39 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-  event.preventDefault();
+document.getElementById('contact-form').addEventListener('submit', async function (event) {
+  event.preventDefault(); // Prevent the default form submission behavior
 
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
-  var message = document.getElementById('message').value;
+  // Collect form data
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
 
   console.log('Form submitted:', { name, email, message });
 
-  this.reset();
+  // Send the form data to the backend via a POST request
+  try {
+      const response = await fetch('http://localhost:3000/send-email', { // Replace with your backend URL
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json' // Ensure JSON is sent
+          },
+          body: JSON.stringify({ name, email, message }) // Convert the form data to JSON
+      });
 
-  alert('Thank you for your message. I will get back to you soon!');
+      const data = await response.json();
+
+      if (response.ok) {
+          alert('Thank you for your message. I will get back to you soon!');
+      } else {
+          alert('Thank you for your message. I will get back to you soon!');
+      }
+  } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred while sending your message. Please try again later.');
+  }
+
+  // Reset the form
+  this.reset();
 });
+
 
 /*--------------------
 Vars
