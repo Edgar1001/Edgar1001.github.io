@@ -269,13 +269,14 @@ body {
 
 /* Style for the project title link */
 .project-item h3 a {
-  color: #4CAF50; /* Match the existing green for h3 */
-  text-decoration: none; /* Remove underline */
+  color: #4CAF50 !important; /* Match the existing green for h3 */
+  text-decoration: none !important; /* Remove underline */
 }
 
 /* Style for hover effect on the project title link */
 .project-item h3 a:hover {
-  color: #388E3C; /* Slightly darker green for hover effect */
+  color: #388E3C !important; /* Slightly darker green for hover effect */
+  text-decoration: underline !important; /* Optional: underline on hover */
 }
 
 /* Ensure this rule has higher specificity if needed */
@@ -291,6 +292,7 @@ body {
 .project-item strong {
   color: #FFA500;
 }
+
 
 body {
   background-color: black;
