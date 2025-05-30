@@ -13,6 +13,8 @@
     "skill9": "Certifications: AWS Certified Solutions Architect - Associate, AWS Certified Developer - Associate",
     "description4": "In every project, I am motivated by problem-solving, collaboration, and continuous learning to stay up-to-date with the latest technologies. I am excited to bring both creativity and precision to the work I do, helping companies transform their ideas into reality.",
     "projects-title": "Current Projects",
+    "fitapp-title": "FitApp",
+    "fitapp-description": "FitApp is a cross-platform fitness tracking application built with React Native and TypeScript for Android and iOS. It includes GPS-based activity tracking (km/day), daily/weekly/monthly progress visualization, multilingual support (English and Spanish), light/dark theme switching, and personalized goal generation based on user profile data. FitApp features interactive bar graphs, real-time statistics, and secure authentication.",
     "vibing-title": "Vibing",
     "vibing-description": "Vibing is a modern dating platform designed for real connections. It features user profiles, swipe-based matching, and secure authentication for a reliable dating experience. Vibing enables real-time communication via WebSocket-powered chats, allowing users to engage in instant, fluid conversations. With a sleek, user-friendly interface and robust privacy features.",
     "streamtube-title": "StreamTube",
