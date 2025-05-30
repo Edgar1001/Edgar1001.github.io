@@ -14,6 +14,8 @@
     "skill9": "Sertifikaatit: AWS Certified Solutions Architect, AWS Certified Developer",
     "description4": "Jokaisessa projektissa minut motivoi ongelmanratkaisu, yhteistyö ja jatkuva oppiminen pysyäkseni ajan tasalla uusimmista teknologioista. Olen innoissani siitä, että voin tuoda sekä luonteenpiirteitä että tarkkuutta tekemääni työhön, auttaen yrityksiä muuntamaan ideansa todellisuudeksi.",
     "projects-title": "Nykyiset projektit",
+    "fitapp-title": "FitApp",
+    "fitapp-description": "FitApp on alustojen välinen kunnonseurantasovellus, joka on rakennettu React Nativella ja TypeScriptillä Androidille ja iOS:lle. Sovellus sisältää GPS-pohjaisen aktiivisuuden seurannan (km/päivä), päivittäisen/viikoittaisen/kuukausittaisen edistymisen visualisoinnin, monikielisen tuen (englanti ja espanja), vaalean/tumman teeman vaihdon sekä henkilökohtaiset tavoitteet käyttäjäprofiilin perusteella. FitApp tarjoaa interaktiivisia pylväsdiagrammeja, reaaliaikaisia tilastoja ja turvallisen kirjautumisen.",
     "vibing-title": "Vibing",
     "vibing-description": "Vibing on moderni treffialusta, joka on suunniteltu todellisiin yhteyksiin. Se sisältää käyttäjäprofiilit, pyyhkäisypohjaisen yhdistämisen ja turvallisen todennuksen luotettavan treffikokemuksen takaamiseksi. Vibing mahdollistaa reaaliaikaisen viestinnän WebSocket-pohjaisen chatin kautta, jonka avulla käyttäjät voivat osallistua saumattomiin ja välittömiin keskusteluihin. Tyylikkään, käyttäjäystävällisen käyttöliittymän ja vankkojen yksityisyysominaisuuksien avulla.",
     "streamtube-title": "StreamTube",
