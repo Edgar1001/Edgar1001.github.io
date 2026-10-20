@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">Voice Studio: two identical mirrored sound waves</title>
+  <defs>
+    <radialGradient id="background" cx=".5" cy=".5" r=".7">
+      <stop stop-color="#292344"/>
+      <stop offset="1" stop-color="#0c101d"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#background)"/>
+  <circle cx="512" cy="512" r="312" fill="none" stroke="#9582bd" stroke-width="4" opacity=".5"/>
+  <g fill="none" stroke="#c6b8f5" stroke-width="34" stroke-linecap="round">
+    <path d="M274 476V548M338 428V596M402 380V644M466 428V596"/>
+    <path d="M750 476V548M686 428V596M622 380V644M558 428V596"/>
+  </g>
+</svg>

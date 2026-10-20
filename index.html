@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Edgar Rosende</title>
+	<link rel="icon" type="image/svg+xml" sizes="any" href="./assets/favicon.svg">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-	<link href="./styles/style.css" rel="stylesheet">
+	<link href="./styles/style.css?v=8" rel="stylesheet">
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
 </head>
@@ -54,40 +55,35 @@
 		</nav>
 		
 
-		<section id="about" class="d-flex flex-column p-5">
+		<section id="about" class="intro-section" aria-labelledby="hero-name">
 			<div class="about-container reveal">
-				<div class="row d-flex justify-content-between align-items-center">
-					<div class="col-md-6 text-start">
-						<div class="col-md-6 text-start">
-							<div class="animated-title">
-								<span class="letter">S</span>
-								<span class="letter">o</span>
-								<span class="letter">f</span>
-								<span class="letter">t</span>
-								<span class="letter">w</span>
-								<span class="letter">a</span>
-								<span class="letter">r</span>
-								<span class="letter">e</span>
-							</div>
-							<div class="animated-title">
-								<span class="letter">E</span>
-								<span class="letter">n</span>
-								<span class="letter">g</span>
-								<span class="letter">i</span>
-								<span class="letter">n</span>
-								<span class="letter">e</span>
-								<span class="letter">e</span>
-								<span class="letter">r</span>
-							</div>
+				<div class="hero-layout">
+					<div class="hero-copy">
+						<p class="hero-role"><span aria-hidden="true"></span>Senior Software Engineer</p>
+						<h1 id="hero-name" class="hero-name">Edgar <span>Rosende</span></h1>
+						<p class="intro-description" data-translate="intro-description">I build web and mobile applications, from intuitive interfaces to reliable backends and cloud deployments.</p>
+						<ul class="hero-specialties" aria-label="Specialties" data-translate-aria-label="hero-specialties">
+							<li>Full-Stack</li>
+							<li data-translate="hero-mobile">Mobile</li>
+							<li>Cloud &amp; DevOps</li>
+							<li data-translate="hero-ai">AI</li>
+							<li data-translate="hero-cybersecurity">Cybersecurity</li>
+						</ul>
+						<div class="hero-actions">
+							<a class="hero-button hero-button-primary" href="#projects"><span data-translate="hero-projects">View projects</span></a>
+							<a class="hero-button hero-button-secondary" href="#contact"><span data-translate="hero-contact">Let's talk</span></a>
 						</div>
-						<span class="main_title clearfix">Edgar Rosende</span>
 					</div>
-					<div class="col-md-6 text-end">
-						<div class="image-container">
-							<img src="./assets/imgs/my_image.png" class="img-fluid responsive">
-						</div>
+					<div class="hero-visual">
+						<img src="./assets/imgs/my_image.png" alt="Edgar Rosende" width="400" height="400">
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<section id="biography" class="d-flex flex-column p-5" aria-labelledby="biography-title">
+			<div class="biography-container reveal">
+				<h2 id="biography-title" class="section-title" data-translate="about">About</h2>
 				<div class="row mt-4">
 					<div class="col-12">
 						<p class="description" data-translate="description1">
@@ -130,63 +126,143 @@
 
 		<section id="projects" class="d-flex flex-column p-5">
 			<h2 class="section-title" data-translate="projects-title">Projects</h2>
-			<div class="project-container reveal">
-		  
-			  <div class="project-item">
-				<h3>
-				  <a href="https://github.com/Edgar1001/fitapp" target="_blank" data-translate="fitapp-title">Fitapp</a>
-				</h3>
-				<p data-translate="fitapp-description">
-				  Fitapp is a cross-platform fitness tracking application built with React Native and TypeScript for Android and iOS.
-				  It includes GPS-based activity tracking (km/day), daily/weekly/monthly progress visualization,
-				  multilingual support (English and Spanish), light/dark theme switching, and personalized goal generation
-				  based on user profile data. Fitapp features interactive bar graphs, real-time statistics, and secure authentication.
-				</p>
-				<p><strong data-translate="technologies">Technologies:</strong> PostgreSQL, Railway, React Native, TypeScript, GPS APIs, AsyncStorage, Chart.js</p>
-			  </div>
-		  
-			  <div class="project-item">
-				<h3>
-				  <a href="https://github.com/Edgar1001/Vibing" target="_blank" data-translate="vibing-title">Vibing</a>
-				</h3>
-				<p data-translate="vibing-description">
-				  Vibing is a modern dating platform designed for real connections. It features user profiles,
-				  swipe-based matching, and secure authentication for a safe dating experience.
-				  Vibing enables real-time communication through WebSocket-powered chats, letting users engage
-				  in seamless, instant conversations. With a sleek, user-friendly interface and robust privacy features.
-				</p>
-				<p><strong data-translate="technologies">Technologies:</strong> PostgreSQL, React, Node.js, TypeScript, Express.js</p>
-			  </div>
-
-			  <div class="project-item">
-				<h3>
-				  <a href="https://github.com/Edgar1001/Voice_studio" target="_blank" data-translate="voicestudio-title">Voice Studio</a>
-				</h3>
-				<p data-translate="voicestudio-description">
-				  Voice Studio is an AI-powered voice cloning and text-to-speech application. It enables users to clone voices
-				  from audio samples and generate natural-sounding speech in multiple languages. The app features real-time
-				  voice synthesis, customizable voice parameters, and support for various audio formats. Perfect for content
-				  creators, developers, and accessibility applications.
-				</p>
-				<p><strong data-translate="technologies">Technologies:</strong> Python, AI/ML, Text-to-Speech APIs, Audio Processing</p>
-			  </div>
-
-			  <div class="project-item">
-				<h3>
-				  <a href="https://github.com/Edgar1001/FoodScanner" target="_blank" data-translate="foodscanner-title">FoodScanner</a>
-				</h3>
-				<p data-translate="foodscanner-description">
-				  FoodScanner is a mobile application for scanning food products and retrieving detailed nutritional information.
-				  It categorizes products based on nutritional values such as sugars, fats, and proteins, and displays all
-				  additives present in each product. The app includes an extensive additives guide with detailed explanations,
-				  making it easy to make informed dietary choices. Works with products from any country.
-				</p>
-				<p><strong data-translate="technologies">Technologies:</strong> React Native, Expo, expo-camera, Barcode APIs</p>
-			  </div>
-		  
+			<p class="projects-intro" data-translate="projects-intro">A closer look at the things I build. Browse by category and discover the ideas and technologies behind each project.</p>
+			<div class="project-toolbar">
+				<div class="project-filters" role="group" aria-label="Filter projects" data-translate-aria-label="projects-filter-label">
+					<button type="button" class="project-filter" data-project-filter="all" aria-pressed="true" data-translate="projects-all">All projects</button>
+					<button type="button" class="project-filter" data-project-filter="mobile" aria-pressed="false" data-translate="projects-mobile">Mobile</button>
+					<button type="button" class="project-filter" data-project-filter="web" aria-pressed="false" data-translate="projects-web">Web</button>
+					<button type="button" class="project-filter" data-project-filter="ai" aria-pressed="false" data-translate="projects-ai">AI / Audio</button>
+				</div>
+				<p class="project-results" role="status"><span data-translate="projects-showing">Showing</span> <span id="project-count">6 / 6</span></p>
 			</div>
-		  </section>
-		  
+			<div class="project-grid">
+				<article class="project-card" data-category="mobile" data-gallery="assets/projects/fitapp-icon.webp" style="--project-accent: #78aaff">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/fitapp-icon.webp" alt="Fitapp app icon" data-translate-alt="fitapp-icon" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-mobile">Mobile</span>
+						<h3 data-translate="fitapp-title">Fitapp</h3>
+						<p class="project-description" data-translate="fitapp-description">Fitapp is a cross-platform fitness tracking application built with React Native and TypeScript for Android and iOS. It includes GPS-based activity tracking (km/day), daily/weekly/monthly progress visualization, multilingual support (English and Spanish), light/dark theme switching, and personalized goal generation based on user profile data. Fitapp features interactive bar graphs, real-time statistics, and secure authentication.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>React Native</li><li>TypeScript</li><li>PostgreSQL</li><li>Railway</li><li>GPS APIs</li><li>AsyncStorage</li><li>Chart.js</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/Fitapp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card" data-category="mobile" data-gallery="assets/projects/airtracker-icon.webp" style="--project-accent: #58dfb4">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/airtracker-icon.webp" alt="AirTracker app icon" data-translate-alt="airtracker-icon" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-mobile">Mobile</span>
+						<h3 data-translate="airtracker-title">AirTracker</h3>
+						<p class="project-description" data-translate="airtracker-description">AirTracker tracks aircraft and public transport on a live map. Explore airline information, flight speed and altitude, FIR boundaries, and filtered bus, train, tram, and ferry routes.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>React Native</li><li>Expo</li><li>TypeScript</li><li>GTFS Realtime</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/AirTracker" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card" data-category="mobile" data-gallery="assets/projects/kielikaveri-icon.webp" style="--project-accent: #f8cd46">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/kielikaveri-icon.webp" alt="KieliKaveri app icon" data-translate-alt="kielikaveri-preview" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-mobile">Mobile</span>
+						<h3 data-translate="kielikaveri-title">KieliKaveri</h3>
+						<p class="project-description" data-translate="kielikaveri-description">KieliKaveri is an Android Finnish tutor for voice and text conversations. Practice at A2-C2 levels, switch between spoken and standard Finnish, and receive corrections with English explanations. Includes hands-free and realtime voice modes.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>React Native</li><li>Expo</li><li>TypeScript</li><li>FastAPI</li><li>OpenAI</li><li>WebRTC</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/KieliKaveri" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card" data-category="web" data-gallery="assets/projects/vibing-icon.webp?v=2" style="--project-accent: #f47b86">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/vibing-icon.webp?v=2" alt="Vibing project icon" data-translate-alt="vibing-icon" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-web">Web</span>
+						<h3 data-translate="vibing-title">Vibing</h3>
+						<p class="project-description" data-translate="vibing-description">Vibing is a modern dating platform designed for real connections. It features user profiles, swipe-based matching, and secure authentication for a safe dating experience. Vibing enables real-time communication through WebSocket-powered chats, letting users engage in seamless, instant conversations. With a sleek, user-friendly interface and robust privacy features.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>React</li><li>Node.js</li><li>TypeScript</li><li>Express.js</li><li>PostgreSQL</li><li>Socket.io</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/Vibing" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card" data-category="web ai" data-gallery="assets/projects/voice-studio-icon.webp?v=6" style="--project-accent: #c4a0ff">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/voice-studio-icon.webp?v=6" alt="Voice Studio project icon" data-translate-alt="voicestudio-icon" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-ai">AI / Audio</span>
+						<h3 data-translate="voicestudio-title">Voice Studio</h3>
+						<p class="project-description" data-translate="voicestudio-description">Voice Studio is an AI-powered voice cloning and text-to-speech application. It enables users to clone voices from audio samples and generate natural-sounding speech in multiple languages. The app features real-time voice synthesis, customizable voice parameters, and support for various audio formats. Perfect for content creators, developers, and accessibility applications.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>Python</li><li>AI / ML</li><li>Text-to-Speech APIs</li><li>Audio Processing</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/Voice_studio" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+				<article class="project-card" data-category="mobile" data-gallery="assets/projects/foodscanner-icon.webp" style="--project-accent: #a3e58b">
+					<button type="button" class="project-preview" data-project-open>
+						<img src="assets/projects/foodscanner-icon.webp" alt="FoodScanner app icon" data-translate-alt="foodscanner-icon" width="512" height="512" loading="lazy">
+					</button>
+					<div class="project-card-body">
+						<span class="project-category" data-translate="projects-mobile">Mobile</span>
+						<h3 data-translate="foodscanner-title">FoodScanner</h3>
+						<p class="project-description" data-translate="foodscanner-description">FoodScanner is a mobile application for scanning food products and retrieving detailed nutritional information. It categorizes products based on nutritional values such as sugars, fats, and proteins, and displays all additives present in each product. The app includes an extensive additives guide with detailed explanations, making it easy to make informed dietary choices. Works with products from any country.</p>
+						<ul class="project-tags" aria-label="Technologies" data-translate-aria-label="technologies">
+							<li>React Native</li><li>Expo</li><li>expo-camera</li><li>Barcode APIs</li>
+						</ul>
+						<div class="project-actions">
+							<button type="button" class="project-details" data-project-open data-translate="projects-details">Explore project</button>
+							<a class="project-github" href="https://github.com/Edgar1001/FoodScanner" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<dialog id="project-dialog" aria-labelledby="project-dialog-title">
+			<div class="project-dialog-heading">
+				<h2 id="project-dialog-title"></h2>
+				<form method="dialog"><button class="project-close" data-translate="projects-close">Close</button></form>
+			</div>
+			<div class="project-dialog-layout">
+				<div class="project-gallery">
+					<img data-gallery-image alt="">
+					<div class="project-gallery-controls">
+						<button type="button" data-gallery-previous aria-label="Previous screenshot" data-translate-aria-label="projects-previous">&#8592;</button>
+						<span data-gallery-count aria-live="polite" aria-atomic="true"></span>
+						<button type="button" data-gallery-next aria-label="Next screenshot" data-translate-aria-label="projects-next">&#8594;</button>
+					</div>
+				</div>
+				<div class="project-dialog-details">
+					<p data-project-description></p>
+					<ul class="project-tags" data-project-tags aria-label="Technologies" data-translate-aria-label="technologies"></ul>
+					<a class="project-details" data-project-github target="_blank" rel="noopener noreferrer" data-translate="projects-source">View source on GitHub</a>
+				</div>
+			</div>
+		</dialog>
 		
 		<section id="contact" class="d-flex flex-column p-5">
 			<h2 class="section-title" data-translate="contact-title">Contact</h2>
@@ -234,7 +310,8 @@
 		
 	</div>
 	<script src="script.js"></script>
-	<script src="translation.js"></script>
+	<script src="translation.js?v=4"></script>
+	<script src="projects.js"></script>
 	
 </body>
 
